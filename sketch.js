@@ -55,7 +55,6 @@ function setup(){
   trex.addAnimation("collided", trex_collided);
   trex.scale = 0.6
   trex.setCollider("circle",0,0,40)
-  trex.debug = false;
   ground = createSprite(0,210,490,20)
   ground.addImage("piso", grounds)
   invisible_ground = createSprite(0,220,490,20)
